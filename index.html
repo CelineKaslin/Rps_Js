@@ -2,9 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title> RPS </title>
   </head>
   <body>
+    <h1> Welcome to Rock - Paper - Scissors  </h1>
+    <h2> Choose which option you would like to play </h2>
+    <h3 id="display"></h3>
+    <form id="Rock">
+      <button type="button" onclick="controller('rock')">Rock</button>
+    </form>
+
+    <form id="Paper">
+      <button type="button" onclick="controller('paper')">Paper</button>
+    </form>
+
+    <form id="Scissors">
+      <button type="button" onclick="controller('scissors')">Scissors</button>
+    </form>
+
+    <script type="text/javascript" src="src/computer.js"></script>
+    <script type="text/javascript" src="src/game.js"></script>
+    <script type="text/javascript" src="src/controller.js"></script>
 
   </body>
 </html>
