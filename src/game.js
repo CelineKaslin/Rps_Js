@@ -7,4 +7,11 @@ class Game {
       case ('Paper'): return 'Sadly, you loose!'
     };
   };
+  paper(computer_choice) {
+    switch (computer_choice){
+      case ('Paper'): return 'Oups, it is a draw!'
+      case ('Rock'): return 'Well done, you won!'
+      case ('Scissors'): return 'Sadly, you loose!'
+    };
+  };
 };
