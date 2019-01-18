@@ -30,5 +30,17 @@ describe("Game", function(){
     });
   });
 
+  describe("scissors function", function () {
+    it("Should return the draw when user and computer choose to play 'Scissors'", function() {
+      expect(game.scissors('Scissors')).toEqual('Oups, it is a draw!')
+    });
+    it("Should return the user as the winner when they choose 'Scissors' and the computer choose to play 'Paper'", function() {
+      expect(game.scissors('Paper')).toEqual('Well done, you won!')
+    });
+    it("Should return the user as the looser when they choose 'Scissors' and the computer choose to play 'Rock'", function() {
+      expect(game.scissors('Rock')).toEqual('Sadly, you loose!')
+    });
+  });
+
 
 });
