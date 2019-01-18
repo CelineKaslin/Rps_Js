@@ -2,12 +2,12 @@ describe ("Computer spied to return one of the random value it should play", fun
   var computer;
 
   beforeEach (function(){
-    computer = new Computer()
+    computer = new Computer();
   });
 
   it ("The choice of the computer should return 'Rock'", function(){
-    spyOn(Game, "play").andReturn('Rock');
-    expect(computer.play).toEqual('Rock');
+    spyOn(Math, 'random').and.returnValue(0);
+    expect(computer.play()).toEqual('Rock');
   });
 
 
