@@ -11,6 +11,8 @@ The app is pretty basic, and the MVP I built is the following one :
 - The user can choose one option between Rock, Paper and Scissors, by clicking on the button of it.
 - As soon as the user have clicked on his weapon, the result of the game is automatically displayed.
 
+### Screen shot ###
+
 ![RPS_APP_SCREENSHOT](https://user-images.githubusercontent.com/43742795/52734622-9fedd880-2fbd-11e9-9261-2bfa727df181.png)
 
 ### Tech stack ###
@@ -19,7 +21,7 @@ The app is pretty basic, and the MVP I built is the following one :
 * Html
 * Jasmine - testing framework
 
-![RPS_JASMINE](https://user-images.githubusercontent.com/43742795/52734796-f9560780-2fbd-11e9-8e18-813852789724.png)
+![RPS_JASMINE TEST](https://user-images.githubusercontent.com/43742795/52735107-b8aabe00-2fbe-11e9-9a26-0b10544f5d63.png)
 
 ## How to use ##
 
